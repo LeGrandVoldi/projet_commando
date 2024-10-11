@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Accueil</title>
+</head>
+<body class="tout_centrer">
+    <main>
+         <div id="part1" class="tout_centrer">
+            <input type="file" id="imageInput" accept="image/*" hidden>
+            <div id="photo">
+
+            </div>
+         </div>
+         <div id="part2"></div>
+         <div id="part3">
+            <div id="part3_1" class="tout_centrer" >
+                <h3>Informations sur l'étudiant</h3>
+            </div>
+            <div id="part3_2">
+                    <div id="p1">
+                        <label for="nom">
+                            nom :  
+                        </label><br>
+                        <input type="text" name="nom" id="nom" class="form-control">
+                    </div>
+                    <div id="p2">
+                        <label for="postnom">
+                            postnom :  
+                        </label><br>
+                        <input type="text" name="postnom" id="postnom" class="form-control">
+                    </div>
+                    <div id="p3">
+                        <label for="promotion">
+                            promotion :  
+                        </label><br>
+                        <select name="promotion" id="promotion" class="form-control">
+                            <option value="Licence 3">Licence 3</option>
+                            <option value="Licence 2">Licence 2</option>
+                            <option value="Licence 1">Licence 1</option>
+                        </select>
+                    </div>
+                    <div id="p4">
+                        <label for="statut">
+                            statut :  
+                        </label><br>
+                        <input type="text" name="statut" id="statut" class="form-control">
+                    </div>
+                    <div id="p5">
+                        <button class="btn btn-primary form-control">validation</button>
+                    </div>
+                    <div id="p6">
+                        <button class="btn btn-danger form-control">denied</button>
+                    </div>
+            </div>
+            <div id="part3_3" class="tout_centrer">
+                  <p id="cop"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#6166ff" d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2S2 6.477 2 12" opacity="0.4"/><path fill="#6166ff" d="M12.286 8.75c-2.003 0-3.536 1.503-3.536 3.25s1.533 3.25 3.536 3.25c.511 0 .995-.1 1.43-.277a.75.75 0 0 1 .567 1.389a5.3 5.3 0 0 1-1.997.388c-2.732 0-5.036-2.079-5.036-4.75s2.304-4.75 5.036-4.75a5.3 5.3 0 0 1 1.997.388a.75.75 0 0 1-.566 1.39a3.8 3.8 0 0 0-1.431-.278"/></svg> copyright murhula birindwa jonathan</p>
+            </div>
+         </div>
+    </main>
+
+
+
+ 
+    <script src="JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
